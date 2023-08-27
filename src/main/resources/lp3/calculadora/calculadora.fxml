@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp3.calculadora.CalculadoraController">
+   <children>
+      <Button fx:id="num7" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleNum7Click" prefHeight="80.0" prefWidth="84.0" text="7" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num1" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="14.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#handleNum1Click" prefHeight="80.0" prefWidth="84.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num9" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="220.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleNum9Click" prefHeight="80.0" prefWidth="84.0" text="9" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num4" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#handleNum4Click" prefHeight="80.0" prefWidth="84.0" text="4" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num8" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="119.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleNum8Click" prefHeight="80.0" prefWidth="84.0" text="8" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num5" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="119.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#handleNum5Click" prefHeight="80.0" prefWidth="84.0" text="5" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num2" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="119.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#handleNum2Click" prefHeight="80.0" prefWidth="84.0" text="2" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num6" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="220.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#handleNum6Click" prefHeight="80.0" prefWidth="84.0" text="6" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num3" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="220.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#handleNum3Click" prefHeight="80.0" prefWidth="84.0" text="3" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="num0" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="14.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#handleNum0Click" prefHeight="80.0" prefWidth="84.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="visor" editable="false" layoutX="12.0" layoutY="84.0" prefHeight="63.0" prefWidth="493.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="multiplica" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="320.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#handleMultiplicacaoClick" prefHeight="80.0" prefWidth="84.0" text="*" textAlignment="CENTER" textFill="#0ea129f0">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtracao" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="422.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#handleSubtracaoClick" prefHeight="80.0" prefWidth="84.0" text="-" textAlignment="CENTER" textFill="#0ea129f0">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="dividir" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="422.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#handleDivisaoClick" prefHeight="80.0" prefWidth="84.0" text="/" textAlignment="CENTER" textFill="#0ea129f0">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="soma" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="320.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#handleSomaClick" prefHeight="80.0" prefWidth="84.0" text="+" textAlignment="CENTER" textFill="#0ea129f0">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="igual" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="422.0" layoutY="441.0" mnemonicParsing="false" onAction="#resultado" prefHeight="80.0" prefWidth="84.0" text="=" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="ponto" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="119.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#handlePontoClick" prefHeight="80.0" prefWidth="84.0" text="." textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="del" alignment="BASELINE_CENTER" contentDisplay="BOTTOM" defaultButton="true" layoutX="320.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleDelClick" prefHeight="80.0" prefWidth="84.0" style="-fx-background-color: #ff0000;" text="DEL" textFill="#f8f3f3">
+         <font>
+            <Font name="Consolas Bold" size="23.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="ac" alignment="BASELINE_CENTER" contentDisplay="BOTTOM" defaultButton="true" layoutX="415.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#handleAcClick" prefHeight="80.0" prefWidth="84.0" style="-fx-background-color: #ff0000;" text="AC" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="parentese_fecha" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="320.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#handleParenteseFechaClick" prefHeight="80.0" prefWidth="84.0" text=")" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button fx:id="parentese_abre" alignment="BOTTOM_CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="220.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#handleParenteseAbreClick" prefHeight="80.0" prefWidth="84.0" text="(" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas Bold" size="42.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="visorOperacao" editable="false" layoutX="10.0" layoutY="14.0" prefHeight="64.0" prefWidth="493.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
